@@ -1,0 +1,17 @@
+/* Antes: .menu-nav */
+.menuNav {
+  /* ... estilos */
+  transition: top 0.3s;
+  top: 0;
+}
+.hidden {
+  top: -100px; /* ou a altura da sua navbar */
+}
+.visible {
+  top: 0;
+}
+
+/* Antes: .menu-itens.active */
+.menuItens.active {
+  /* ... estilos */
+}

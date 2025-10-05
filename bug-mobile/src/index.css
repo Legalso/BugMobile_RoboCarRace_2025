@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Conteúdo de core/variaveis.css */
+:root {
+  --titulos: "Audiowide", cursive;
+  --p-font: "Roboto Mono", monospace;
+  --bg-color: #21192c;
+  /* ...outras variáveis */
+}
+
+/* Estilos globais de body.css */
+body {
+  color: white;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Outros estilos globais que você queira aplicar */

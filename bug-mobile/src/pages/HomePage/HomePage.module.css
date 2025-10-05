@@ -1,0 +1,23 @@
+/* Estilos de home.css */
+.homePage {
+  /* ... */
+}
+.msgPrincipal {
+  /* ... */
+}
+
+/* Estilos de equipe.css */
+.sobreNosConteudo {
+  /* ... */
+}
+
+/* Estilos de membros.css */
+.membros {
+  /* ... */
+}
+.pessoasGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    /* ... */
+}
